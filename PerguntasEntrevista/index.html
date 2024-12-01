@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>50 Perguntas de Entrevista</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icone.png">
+    </head>
+
+    <body>
+
+        <h2 id="numero"></h2>
+        <h1 id="pergunta"></h1>
+
+        <div class="botoes">
+
+            <button id="botao1" class="botao" onclick="enviarResposta()" >Pessoal</button>
+            <button id="botao2" class="botao" onclick="enviarResposta()" >Experiência</button>
+            <button id="botao3" class="botao" onclick="enviarResposta()" >Futuro</button>
+            <button id="botao4" class="botao" onclick="enviarResposta()" >Empresa</button>
+
+        </div>
+        
+        <button id="reset" onclick="resetarRespostas()">Resetar Respostas</button>
+
+        <!-- Modal -->
+        <div id="resultadoModal" class="modal">
+            <div class="modal-content">
+                <div class="alinhado">
+                    <h2>Resultado</h2>
+                    <span class="close">&times;</span>
+                </div>
+                <p id="resultadoTexto"></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+
+</html>
