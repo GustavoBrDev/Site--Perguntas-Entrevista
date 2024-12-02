@@ -114,6 +114,7 @@ h2 {
 
 .modal-content {
     text-align: center;
+    position: relative;
     background-color: white;
     margin: 15% auto;
     border-radius: 10px;
@@ -124,27 +125,28 @@ h2 {
 }
 
 .modal-content h2 {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .modal-content p {
+    margin-top: 1.5rem;
     font-size: 2rem;
 }
 
 .alinhado {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    margin-left: 10rem;
 }
 
 .close {
     color: #ff0000;
-    font-size: 5rem;
+    font-size: 2rem;
     font-weight: bold;
     position: absolute;
-    right: 37rem;
-    top: 21.5rem;
+    right: 1px;
+    top: 1px;
 }
 
 .close:hover,
